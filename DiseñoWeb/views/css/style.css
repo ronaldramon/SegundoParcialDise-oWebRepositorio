@@ -1,0 +1,174 @@
+.bodyy {
+    margin: 0;
+    background: -webkit-linear-gradient(90deg, #000000,rgba(97, 179, 227, 1),#000000);background: linear-gradient(90deg, #000000,#0091ff,#000000);
+}
+.container {
+    width: 80%;
+    margin: auto; }
+
+  /* Estilos de la barra de navegación */
+@font-face {
+    font-family: 'Freeman';
+    src: url('ruta-a-tu-archivo-freeman.woff2') format('woff2'),
+        url('ruta-a-tu-archivo-freeman.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+  /* Resto del código CSS */
+
+#logo {
+    width: 150px; /* o el ancho que prefieras */
+    height: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+  }
+
+
+  /* Media queries para responsividad */
+  @media (max-width: 768px) {
+    .navbar a { 
+        padding: 10px 10px; }
+    .banner-text { 
+        font-size: 1.5em; }
+  }
+
+  .image-container {
+    position: relative;
+    width: 97%;
+    height: 100vh;
+    background-image: src="C:\Users\LeimerBaez\Desktop\Pagina Web\img"; /* Cambia esto por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.swiper {
+
+    width: 80%;
+    height: 400px;
+    padding-top:2em;
+    padding-bottom:2em;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+.text-overlay {
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 300px;
+    border-radius: 10px;
+    padding-top: 25%;
+}
+
+.text-overlay h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.text-overlay p {
+    font-size: 1.5em;
+}
+
+.container1 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 2px;
+    background: black;
+    margin: 10px auto 0 auto;
+}
+
+.publications {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.publication {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+.publication img {
+    width: 250px; /* Adjust the width as necessary */
+    height: auto;
+    border-radius: 10px; /* Optional: to make the corners rounded */
+}
+
+.publication p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contact-text p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact-button button {
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button button:hover {
+    background-color: #ddd;
+}
