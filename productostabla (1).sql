@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 04-07-2024 a las 21:40:25
+-- Tiempo de generación: 04-07-2024 a las 22:39:41
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.0.30
 
@@ -40,17 +40,12 @@ CREATE TABLE `productostabla` (
 INSERT INTO `productostabla` (`Id`, `Nombre`, `Imagen`) VALUES
 (1, 'Samsung Galaxy A05 128GB Silver', 'https://casacuesta.com/media/catalog/product/cache/fde49a4ea9a339628caa0bc56aea00ff/3/3/3344494-1__1711439134.jpg'),
 (2, 'Apple iPhone 15 Pro Max', 'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg'),
-(3, 'Realme 12 4G', 'https://www.gsmarena.com/realme_12_4g-13172.php'),
-(4, 'Realme 12 4G', 'https://www.gsmarena.com/realme_12_4g-13172.php'),
-(5, 'Xiaomi Redmi Note 13', 'https://www.gsmarena.com/xiaomi_redmi_note_13-12776.php'),
-(6, 'Xiaomi Redmi Note 13', 'https://www.gsmarena.com/xiaomi_redmi_note_13-12776.php'),
-(7, 'Samsung Galaxy S24+', 'https://www.gsmarena.com/samsung_galaxy_s24+-12772.php'),
-(8, 'Samsung Galaxy S24+', 'https://www.gsmarena.com/samsung_galaxy_s24+-12772.php'),
-(9, 'Google Pixel 8 Pro', 'https://www.gsmarena.com/google_pixel_8_pro-12545.php'),
-(10, 'OnePlus12', 'https://www.gsmarena.com/oneplus_12-12725.php'),
-(11, 'Alcatel 1SE (2020)', 'https://www.gsmarena.com/alcatel_1se_(2020)-10618.php'),
-(12, 'Motorola Razr 50 Ultra', 'https://www.gsmarena.com/motorola_razr_50_ultra-13150.php'),
-(13, 'Samsung Galaxy Tab A9+', 'https://www.gsmarena.com/samsung_galaxy_tab_a9+-12617.php');
+(3, 'Realme 12 4G', 'https://fdn2.gsmarena.com/vv/pics/realme/realme-12-4g-1.jpg'),
+(5, 'Xiaomi Redmi Note 13', 'https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-13-5g-1.jpg'),
+(7, 'Samsung Galaxy S24+', 'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s24-plus-5g-sm-s926-1.jpg'),
+(9, 'Google Pixel 8 Pro', 'https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8-pro-1.jpg'),
+(10, 'OnePlus12', 'https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-1.jpg'),
+(11, 'Alcatel 1SE (2020)', 'https://fdn2.gsmarena.com/vv/pics/alcatel/alcatel-1-se-2020-1.jpg');
 
 --
 -- Índices para tablas volcadas
